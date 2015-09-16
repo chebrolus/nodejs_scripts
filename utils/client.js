@@ -5,7 +5,7 @@
 fs = require('fs');
 
 var mgmtAPI = (process.env.MGMTAPI || 'https://api.enterprise.apigee.com/v1/');
-var USER = (process.env.USERID || 'schebrolu@apigee.com');
+var USER = (process.env.USERID || '');
 var PASSWORD = (process.env.USERPASSWORD || '');
 
 var auth = { username: USER, password: PASSWORD, sendImmediately: false };
